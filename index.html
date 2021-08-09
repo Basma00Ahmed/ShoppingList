@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>    </meta>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+      <h1>Shopping list</h1>
+</header>
+    <div id="container" class="container">
+
+        <div class="row">
+          <div id="shoppingLists" class="col-md-6">
+            <div class="row" >
+              <form id="frm-shoppingList" class="col-md-8">
+                <div class="input-group mb-3  border-bottom ">
+                <input type="text" class="form-control " id="shoppingList-Name" placeholder="Add new list.." required="true"/>          
+                <input type="submit" class="btn btn-secondary mb-3" id="btn-add-shoppingList" value="Add List"/>
+         
+             </div> </form>       
+           
+            </div>      
+            <div class="row" style="padding-top: 2%">
+              <div class="col-md-8">
+              <ul id="list-ul" style="list-style: none;padding: 0;" >
+
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div id="ListItems" class="col-md-6" hidden="true">
+            <div class="row ">
+             <label  class="col-md-8  currentListLabel" id="current-list-Name"  >  
+                </label> 
+            </div>
+            <div class="row"  >
+              <form id="frm-item" class="col-md-8">
+                <div class="input-group mb-3 border-bottom">
+                <input type="text" class="form-control" id="item-Name" placeholder="Add new item..." required="true"/>          
+                <input type="submit" class="btn btn-warning mb-3" id="btn-add-Item" value="Add Item"/>
+             </div> </form>
+            </div>
+            <div class="row" style="padding-top: 2%">
+              <div class="col-md-8">
+              <ul id="item-ul" style="list-style: none;padding: 0;">
+
+              </ul></div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+<footer>
+  <h6> © Copyright 2021 | Designed by Basma Ahmed </h6>
+</footer>
+</body>
+</html>
