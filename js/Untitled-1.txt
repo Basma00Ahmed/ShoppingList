@@ -1,0 +1,25 @@
+{
+    "lists":[
+        {
+            "listName":"list1",
+            "ïtems":[
+                {
+                    "itemName":"ïtem1"
+                }, 
+                {
+                    "itemName":"ïtem2"
+                } 
+            ]
+        },{
+ "listName":"list2",
+            "ïtems":[
+                {
+                    "itemName":"ïtem1"
+                }, 
+                {
+                    "itemName":"ïtem2"
+                } 
+            ]
+        }
+    ]
+}
